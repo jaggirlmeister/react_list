@@ -1,5 +1,5 @@
 .cont{
-    background-color: #eff1ff;
+    background-color: #0d1969bf;
     width: 80%;
     border-radius: 1em;
     margin: 0 auto;
@@ -13,7 +13,18 @@
 
 h2{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 25px;
+}
+
+h1{
+    color: #fff!important;
+    font-size: 35px!important;
+    margin-top: 40px;
+}
+
+.subtitle{ 
+    color: #fff!important;
+    padding-top: 14px!important;
 }
 
 .info{
@@ -28,6 +39,18 @@ h2{
     min-width: 10em;
     text-align: left;
     padding-left: 1em;
+}
+
+.names h2 { 
+    font-weight: bold;
+    font-size: 28px;
+    color: #8389ff;
+}
+
+.names p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 19px;
 }
 
 .buttons{
@@ -46,4 +69,11 @@ h2{
 .avatar img{
     border-radius: 50%;
     width: 100% !important;
+}
+
+.cont:hover {
+    background-color: #0d1969;
+    -webkit-box-shadow: 0px 0px 22px 8px rgba(175,161,255,0.64);
+    -moz-box-shadow: 0px 0px 22px 8px rgba(175,161,255,0.64);
+    box-shadow: 0px 0px 22px 8px rgba(175,161,255,0.64);
 }

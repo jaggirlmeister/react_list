@@ -20,6 +20,7 @@ class App extends React.Component{
       id: faker.random.uuid(),
     }))
 
+    
     console.log(employees);
     //Inicializar state
     this.state = {
@@ -35,29 +36,7 @@ class App extends React.Component{
     this.handleAddEmployeeSubmit = this.handleAddEmployeeSubmit.bind(this)
   }
 
-  componentDidMount(){
-    //Fetch de data 
-    this.setState({
-      nameAlumno:"Robert",
-      users:[{
-        name: "Genovena Mohr",
-        position: "Accounts"
-      },
-      {
-        name: "Carrie Quitzon",
-        position: "Accounts"
-      },
-      {
-        name: "Linnie Pouros",
-        position: "Security"
-      },
-      {
-        name: "Mariana Sporer IV",
-        position: "Creative"
-      }
-    ]
-    });
-  }
+
 
   handleEmpleadoMesClick(employeeId){
        
